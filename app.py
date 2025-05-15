@@ -29,7 +29,7 @@ except Exception as e:
     print(f"Logo file exists: {os.path.exists(logo_path)}")
 
 # Set Streamlit app title and description
-st.title("🌾 AI-ML Based Commodity Price Prediction System for Agri-Horticultural Markets:")
+st.title("🌾 AI-ML Based Commodity Price Prediction System for AgriSphere")
 
 # Custom CSS for background hover effect and button colors
 st.markdown(""" 
@@ -74,7 +74,7 @@ st.markdown("""
 
 # Creator link at the top of the sidebar
 st.markdown(
-    '<a href="https://www.linkedin.com/in/sm980/" class="creator-link">Created by SHASHWAT MISHRA</a>',
+    '<a href="www.linkedin.com/in/spandananrao/" class="creator-link">Spandana N</a>',
     unsafe_allow_html=True
 )
 
